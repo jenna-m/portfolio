@@ -33,7 +33,7 @@ export default class RenderAllImages extends React.Component {
 
         // backButton to take user to beginning of page
         const reposition = () => {
-            window.scrollTo(0, 0);
+            window.scroll({top: 150, left: 0, behavior: 'smooth' });
         }
         
         const backButton = () => {
