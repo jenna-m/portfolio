@@ -4,7 +4,6 @@ import { workData } from '../../../data/workData';
 import { desktopIcon, mobileIcon } from '../../../constants/faIcons';
 import RenderAllImages from './renderAllImages';
 
-
 class ProjectPage extends React.Component {
     constructor(props) {
         super(props);
