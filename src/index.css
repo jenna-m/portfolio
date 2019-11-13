@@ -64,7 +64,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  transition: top .6s;
+  transition: top .5s;
 }
 
 .navbar--hidden {
@@ -213,7 +213,7 @@ a {
 }
 
 #contact-link:hover {
-  color: #07675B;
+  color: #d55e4c;
 }
 
 #twitter-link:hover {
