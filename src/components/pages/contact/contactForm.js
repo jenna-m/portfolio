@@ -16,7 +16,6 @@ let template_params = {
     'senderName': 'senderName_value',
     'message': 'message_value'
 }
- 
 
 // EmailJS consts
 const service_id = 'default_service';
