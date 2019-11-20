@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/graphics/logoLG.svg';
+import skills from '../assets/graphics/skills.svg';
 import {
     contactIcon,
     githubIcon,
@@ -30,12 +31,14 @@ export default function Home() {
                     & Graphic Designer
                 </div>
             </div>
-            <div className="home-button" id="for-hire">
-                <Link to="/contact" id="link-button">currently for hire</Link>
+            <div>
+                <Link to="/contact">
+                    <button data-hover="let's talk"><div>currently for hire</div></button>
+                </Link>
             </div>
             <div id="about-section">
                 <p>
-                    I’m a self-taught front-end web developer with 15+ years of web and graphic design experience. Always learning and looking for more opportunities to do so, I am open to freelance projects and full-time employment.
+                    I’m a self-taught front-end web developer and graphic designer. Always learning and looking for more opportunities to do so, I am open to freelance projects and full-time remote employment.
                 </p>
                 
                 <p>
@@ -87,15 +90,17 @@ export default function Home() {
                 </ul>
             </div>
             <div id="skills-section">
-                <div id="skills-header">
-                    <h2>Skills</h2>
+                <div id="skills-img">
+                    <img src={ skills } alt="Skills" />
                 </div>
                 <div id="skills-container">
                     { mappedSkills }
                 </div>
             </div>
-            <div className="home-button" id="see-work">
-                <Link to="/work" id="link-button">see my work</Link>
+            <div>
+            <Link to="/work">
+                    <button>see my work</button>
+                </Link>
             </div>
         </div>
     );
