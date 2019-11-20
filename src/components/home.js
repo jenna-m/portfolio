@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/graphics/logoLG.svg';
-import skillsImg from '../assets/graphics/skillsAlt.svg';
+import skillsImg from '../assets/graphics/skills.svg';
 import {
     githubIcon,
     linkedinIcon,
