@@ -93,7 +93,9 @@ export const ContactForm = () => {
                     {({ errors }) => (
                     <Form id="contact-form" role="form">
                         <fieldset>
-                            Hi, Jenna! My name is
+                            Hi, Jenna!
+                            <br />
+                            My name is
                             { /* Name Input */ }
                             <label for name="name" className="hide-element">
                                 Your Name
@@ -106,8 +108,8 @@ export const ContactForm = () => {
                                 onBlur={handleBlur}
                             />
                             <ErrorMessage name="name" component="error-text" />
-                            
-                            , and you can reach me at 
+                            , <br />
+                            and you can reach me at 
                             { /* Email Input */ }
                             <label for name="email" className="hide-element">
                                 Your Email
@@ -120,8 +122,7 @@ export const ContactForm = () => {
                                 onBlur={handleBlur}
                             />
                             <ErrorMessage name="email" component="error-text" />
-                            .
-                            
+                            . <br />
                             I just wanted to talk with you about... 
                             { /* Message Input */ }
                             <label for name="message" className="hide-element">
