@@ -33,12 +33,12 @@ export default function Home() {
             </div>
             <div>
                 <Link to="/contact">
-                    <button data-hover="let's talk"><div>currently for hire</div></button>
+                    <button data-hover="get in touch"><div>currently for hire</div></button>
                 </Link>
             </div>
             <div id="about-section">
                 <p>
-                    I’m a self-taught front-end web developer and graphic designer. Always learning and looking for more opportunities to do so, I am open to freelance projects and full-time remote employment.
+                    I’m a self-taught front-end web developer and graphic designer. Always learning and looking for more opportunity to do so, I am open to freelance projects and full-time remote employment.
                 </p>
                 
                 <p>
@@ -47,9 +47,6 @@ export default function Home() {
 
                 <p>
                     When not at the computer, I enjoy making things with my hands—whether it’s trying out a new recipe, a textile project, gardening, or tackling a home improvement venture.
-                </p>
-                <p>
-                And like most all developers, I love coffee.
                 </p>
             </div>
             <div>
