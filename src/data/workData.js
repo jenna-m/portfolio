@@ -78,7 +78,7 @@ export const workData = [
         category: 'graphic',
         displayCategory: 'Graphic Design',
         tools: 'Adobe Photoshop, Illustrator',
-        description: 'Adorn was in need of a logo redesign and storefront window art. For the logo redesign, I incorporated a girly blush color to soften the harder, modern geometric design. For the window art, I stayed with the minimal and geometric direction.',
+        description: 'Adorn was in need of a logo redesign and storefront window art. For the logo redesign, I incorporated a softer blush color to contrast the modern geometric design. For the window art, I stayed true to the minimal and geometric direction.',
         src: [
             adornLogo,
             adornWindow1,
@@ -107,7 +107,7 @@ export const workData = [
         category: 'graphic',
         displayCategory: 'Graphic Design',
         tools: 'Adobe Photoshop',
-        description: 'The artist needed a demo cover design for a musical digital release in 2014. The direction was black & white photography of discarded technology, with a geometric twist. I also created social media graphics for the artist, featuring him in nature.',
+        description: 'The artist needed a demo cover design for a musical digital release in 2014. The direction was black & white photography of discarded technology, with a geometric twist. I also created social media graphics for the artist, featuring photographs of the artist in nature.',
         src: [
             floorOverheadDemo1,
             floorOverheadSocial1,
