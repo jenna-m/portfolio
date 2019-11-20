@@ -14,13 +14,10 @@ import {
 
 
 // export FA icons
-//Home
 export const githubIcon = <FontAwesomeIcon icon={faGithub} />;
 export const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />;
 export const contactIcon = <FontAwesomeIcon icon={faEnvelope} />;
 export const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
-
-// Project Page
 export const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;
 export const mobileIcon = <FontAwesomeIcon icon={faMobileAlt} />;
 export const backIcon = <FontAwesomeIcon icon={faChevronLeft} />;
