@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/graphics/logoLG.svg';
-import skills from '../assets/graphics/skills.svg';
+import skillsImg from '../assets/graphics/skillsAlt.svg';
 import {
-    contactIcon,
     githubIcon,
     linkedinIcon,
     twitterIcon
@@ -70,12 +69,6 @@ export default function Home() {
                         </a>
                     </li>
                     <li>
-                        <Link to="/contact"
-                            id="contact-link">
-                                { contactIcon }
-                        </Link>
-                    </li>
-                    <li>
                         <a
                             href="https://twitter.com/_jennamichaels"
                             target="_blank"
@@ -88,7 +81,7 @@ export default function Home() {
             </div>
             <div id="skills-section">
                 <div id="skills-img">
-                    <img src={ skills } alt="Skills" />
+                    <img src={ skillsImg } alt="Skills" />
                 </div>
                 <div id="skills-container">
                     { mappedSkills }
