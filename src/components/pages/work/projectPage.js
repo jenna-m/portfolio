@@ -26,10 +26,9 @@ class ProjectPage extends React.Component {
         const showDesktopMobileIcons = () => {
             if (project.category === 'web') {
                 return (
-                    <ul id="desktop-mobile-icons">
-                        <li>{ desktopIcon }</li>
-                        <li>{ mobileIcon }</li>
-                    </ul>
+                    <div id="web-icons">
+                        { desktopIcon } { mobileIcon }
+                    </div>
                 )
             }
         }
@@ -91,8 +90,7 @@ class ProjectPage extends React.Component {
                     </div>
                     <div id="project-text">
                         <div id="project-title">
-                            <h2>{project.title}</h2>
-                            { showDesktopMobileIcons() }
+                            <h2>{project.title} { showDesktopMobileIcons() }</h2>
                             <p id="made-with">Made with {project.tools}</p>
                             { showLinks() }
                         </div>

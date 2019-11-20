@@ -433,10 +433,11 @@ button div {
   text-transform: none;
 }
 
-#desktop-mobile-icons li {
+#web-icons {
   display: inline-block;
-  padding: 0px 20px 20px 0px;
-  font-size: 1em;
+  padding: 0px 0px 10px 15px;
+  font-size: .65em;
+  letter-spacing: 1em;
 }
 
 #made-with {
@@ -476,8 +477,6 @@ button div {
 }
 
 /* Project images */
-
-
 #all-project-images {
   margin-top: 50px;
   min-width: 100%;
