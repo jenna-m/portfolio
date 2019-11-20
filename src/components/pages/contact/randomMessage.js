@@ -4,7 +4,6 @@ const messagePhrases = [
     'a job proposal...',
     'collaborating on a project...',
     'a web development project I have in mind...',
-    'Australian Cattle Dogs...'
 ];
 
 let randomIndex = Math.floor(Math.random() * messagePhrases.length);
