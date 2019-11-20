@@ -114,14 +114,24 @@ a {
   margin-top: 150px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
 }
 
-._404-content h2 {
+#_404-image {
+  width: 40%;
+}
+
+#_404-image img {
+  width: 30vw;
+}
+
+#_404-text {
+  margin: 0 auto;
+  width: 40%;
   font-family: 'Rubik', 'Arial', sans-serif;
-  font-size: 4em;
+  font-size: 1em;
 }
 
 /* Home */
@@ -196,7 +206,7 @@ button div {
   letter-spacing: .3em;
   font-weight: 700;
   font-size: .9em;
-  transition: all .4s ease-in-out;
+  transition: all .35s ease-in-out;
 }
 
 #social-links {
@@ -211,7 +221,7 @@ button div {
 }
 
 /* Social Links */
-#github-link, #linkedin-link, #contact-link, #twitter-link {
+#github-link, #linkedin-link, #twitter-link {
   transition: color .1s linear .1s
 }
 
@@ -221,10 +231,6 @@ button div {
 
 #linkedin-link:hover {
   color: #2867B2;
-}
-
-#contact-link:hover {
-  color: #d55e4c;
 }
 
 #twitter-link:hover {
@@ -262,7 +268,7 @@ button div {
 }
 
 #skills-img img {
-  width: 75%;
+  width: 60%;
 }
 
 #see-work {
@@ -497,6 +503,7 @@ button div {
 }
 
 #back-button {
+  margin: 0 auto;
   padding: 0px 75px 0px 50px;
   border: 0;
   background-color: #ffffff;
@@ -516,7 +523,7 @@ button div {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 2.5em;
 }
 
@@ -524,7 +531,7 @@ button div {
 fieldset {
   margin: 0;
   padding: 0;
-  width: 75%;
+  width: 100%;
   border: 0;
 }
 
@@ -544,6 +551,7 @@ fieldset {
 /* Error message span */
 error-text {
   text-transform: lowercase;
+  font-size: .4em;
   font-style: italic;
   font-weight: 400;
   color: #353535;
@@ -557,8 +565,8 @@ error-text {
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  border-bottom: 3px solid #000000;
-  width: 40%;
+  border-bottom: 2px solid #000000;
+  width: 50%;
   height: 20px;
   text-align: center;
   font-family: 'Rubik', 'Arial', sans-serif;
@@ -577,7 +585,7 @@ textarea {
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  border-bottom: 3px solid #000000;
+  border-bottom: 2px solid #000000;
   font-family: 'Rubik', 'Arial', sans-serif;
   font-size: .9em;
   line-height: 1.7em;
@@ -592,21 +600,18 @@ textarea {
 }
 
 #submit {
-  width: 50%;
   margin-top: 15px;
-  padding: 10px 0 8px 0;
+  padding: 10px 15px;
   border: 0;
   font-family: 'Rubik', 'Arial', sans-serif;
-  font-size: .75em;
+  font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #000000;
-  transition: all 0.4s linear;
 }
 
 #submit:hover {
-  color: #000000;
   cursor: pointer;
 }
 
