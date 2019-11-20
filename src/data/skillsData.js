@@ -20,15 +20,15 @@ export const skillsData = [
         skills: 'MongoDB, MySQL',
     },
     {
-        category: 'Concepts',
-        skills: 'Responsive Design, Web Accessibility, Wireframing, OOP, Mobile-First Development, Agile Development',
-    },
-    {
         category: 'Tools',
         skills: 'VSCode, CLI, GitHub, npm',
     },
     {
         category: 'Applications',
         skills: 'Adobe Photoshop, Illustrator, and XD; Autodesk Fusion 360',
+    },
+    {
+        category: 'Concepts',
+        skills: 'Responsive Design, Web Accessibility, Wireframing, OOP, Mobile-First Development, Agile Development',
     }
 ]
