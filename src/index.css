@@ -685,6 +685,34 @@ textarea {
     margin-top: 80px;
   }
 
+  /* 404 Page */
+  ._404-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #_404-image {
+    margin-bottom: 50px;
+    width: 80%;
+    text-align: center;
+  }
+
+  #_404-image img {
+    margin: 0 auto;
+    width: 50vw;
+  }
+
+  #_404-text {
+    text-align: center;
+    width: 80%;
+  }
+
+
   /* Work Page */
   .work-content {
     width: 100%;
@@ -937,8 +965,36 @@ textarea {
     margin-top: 80px;
   }
 
-  /* Work Page */
-  .work-content {
+  /* 404 Page */
+  ._404-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #_404-image {
+    margin-bottom: 50px;
+    width: 80%;
+    text-align: center;
+  }
+
+  #_404-image img {
+    margin: 0 auto;
+    width: 40vw;
+  }
+
+  #_404-text {
+    text-align: center;
+    width: 80%;
+  }
+
+
+   /* Work Page */
+   .work-content {
     width: 100%;
     margin-top: 110px;
     display: flex;
