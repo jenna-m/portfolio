@@ -12,9 +12,9 @@ export const Routes =
     <div>
         <Switch>
             <Route exact path="/" component={ Home } />
-            <Route path ="/work" component={ Work } />
+            <Route exact path ="/work" component={ Work } />
             <Route path="/project" component={ ProjectPage } />
-            <Route path="/contact" component={ Contact } />
+            <Route exact path="/contact" component={ Contact } />
             <Route component={ NotFound } />
         </Switch>
     </div>
