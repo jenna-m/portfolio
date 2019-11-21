@@ -92,7 +92,7 @@ export const workData = [
         category: 'graphic',
         displayCategory: 'Graphic Design',
         tools: 'Adobe Illustrator',
-        description: 'The informational YouTube channel Baking Demystified was in need of logo creation and channel art. I aimed to keep the look playful with the font selection and bright color.',
+        description: 'The YouTube channel Baking Demystified was in need of logo creation and channel art. I aimed to keep the look playful with the font selection and bright color.',
         src: [
             bakingDemystifiedYoutube,
             bakingDemystifiedLogo1,
@@ -107,7 +107,7 @@ export const workData = [
         category: 'graphic',
         displayCategory: 'Graphic Design',
         tools: 'Adobe Photoshop',
-        description: 'The artist needed a demo cover design for a digital music release in 2014. The direction was black & white photography of discarded technology, with a geometric twist. I also created social media graphics for the artist, featuring photographs of the artist in nature.',
+        description: 'Floor Overhead needed a demo cover design for a digital music release in 2014. I also created social media graphics, featuring photographs of the artist in nature.',
         src: [
             floorOverheadDemo1,
             floorOverheadSocial1,
@@ -127,7 +127,7 @@ export const workData = [
         category: 'graphic',
         displayCategory: 'Graphic Design',
         tools: 'Adobe Photoshop, Illustrator, & Muse',
-        description: 'Indoor Cities needed an album cover design for a digital music release in 2013. The direction was to use natural photography and geometry. Their website was kept minimal to direct users to social media outlets and to showcase their music with select reviews and use of the Bandcamp plugin. I also created social media graphics, gig posters, and business cards for the band.',
+        description: 'Indoor Cities needed an album cover design for a digital music release in 2013. The website was kept minimal, directing users to social media outlets and showcasing their music with select reviews and the Bandcamp plugin. I also created social media graphics, gig posters, and business cards for the band.',
         src: [
             indoorCitiesAlbum,
             indoorCitiesWebsite,
