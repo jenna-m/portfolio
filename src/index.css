@@ -155,13 +155,6 @@ a {
   padding-bottom: 10px;
 }
 
-#home-text {
-  font-size: .85em;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: .25em;
-}
-
 /* Home sliding button styling */
 button:hover{cursor: pointer}
 button {
@@ -639,10 +632,6 @@ textarea {
     padding-bottom: 10px;
   }
 
-  #home-text {
-    font-size: .75em;
-  }
-
   #social-links li {
     padding: 0px 5vw 0px 5vw;
     display: inline;
@@ -890,10 +879,6 @@ textarea {
   #logo-splash img {
     width: 100%;
     padding-bottom: 10px;
-  }
-
-  #home-text {
-    font-size: .75em;
   }
 
   /* About */

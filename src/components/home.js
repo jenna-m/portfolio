@@ -24,11 +24,6 @@ export default function Home() {
         <div className="home-content">
             <div id="logo-splash">
                 <img src={logo} alt="Jenna Michaels Logo" />
-                <div id="home-text">
-                    Front-End Web Developer
-                    <br />
-                    & Graphic Designer
-                </div>
             </div>
             <div>
                 <Link to="/contact">
