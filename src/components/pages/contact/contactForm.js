@@ -97,7 +97,7 @@ export const ContactForm = () => {
                             <br />
                             My name is
                             { /* Name Input */ }
-                            <label for name="name" className="hide-element">
+                            <label htmlFor="name" className="hide-element">
                                 Your Name
                             </label>
                             <Field
@@ -111,7 +111,7 @@ export const ContactForm = () => {
                             , <br />
                             and you can reach me at 
                             { /* Email Input */ }
-                            <label for name="email" className="hide-element">
+                            <label htmlFor="email" className="hide-element">
                                 Your Email
                             </label>
                             <Field
@@ -125,7 +125,7 @@ export const ContactForm = () => {
                             . <br />
                             I just wanted to talk with you about... 
                             { /* Message Input */ }
-                            <label for name="message" className="hide-element">
+                            <label htmlFor="message" className="hide-element">
                                 Your Message
                             </label>
                             <Field
