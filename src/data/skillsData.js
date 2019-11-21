@@ -9,7 +9,7 @@ export const skillsData = [
     },
     {
         category: 'Deployment',
-        skills: 'Netlify, AWS (Lambda, S3), GoDaddy',
+        skills: 'Netlify, Heroku, AWS (Lambda, S3), GoDaddy',
     },
     {
         category: 'Back-End (novice)',
