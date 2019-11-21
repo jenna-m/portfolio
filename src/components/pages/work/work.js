@@ -46,14 +46,16 @@ class Work extends React.Component {
                         <h3 id="project-card-category">
                             {project.displayCategory}
                         </h3>
-                        <ul id="project-card-links">
-                            <li><Link to={{
-                                pathname: `/project`,
-                                search: `id=${project.id}`
-                            }}>Details</Link></li>
-                            <li>{ showGithub() }</li>
-                            <li>{ showWebsite() }</li>
-                        </ul>
+                        <div id="project-card-links">
+                            <ul>
+                                <li>{ showGithub() }</li>
+                                <li><Link to={{
+                                    pathname: `/project`,
+                                    search: `id=${project.id}`
+                                }}>Details</Link></li>
+                                <li>{ showWebsite() }</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="project-card-img">
                         <Link to={{
