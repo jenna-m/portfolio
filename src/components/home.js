@@ -7,6 +7,7 @@ import {
     linkedinIcon,
     twitterIcon
 } from '../constants/faIcons';
+import About from '../data/aboutData';
 import Skills from '../data/skillsData';
 
 
@@ -21,19 +22,7 @@ export default function Home() {
                     <button data-hover="get in touch"><div>currently for hire</div></button>
                 </Link>
             </div>
-            <div id="about-section">
-                <p>
-                    I’m a self-taught front-end web developer and graphic designer. Always learning and looking for more opportunity to do so, I am open to freelance projects and full-time remote employment.
-                </p>
-                
-                <p>
-                    I believe that websites should be functional, accessible, beautiful, and scalable. I love to find ways to incorporate subtle, fun details in my projects; finding the right placement for these details allows me to combine my passion for good design and code.
-                </p>
-
-                <p>
-                    When not at the computer, I enjoy making things with my hands—whether it’s trying out a new recipe, a textile project, gardening, or tackling a home improvement venture.
-                </p>
-            </div>
+            <About />
             <div>
                 <ul id="social-links">
                     <li>
