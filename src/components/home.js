@@ -7,19 +7,10 @@ import {
     linkedinIcon,
     twitterIcon
 } from '../constants/faIcons';
-import { skillsData } from '../data/skillsData';
+import Skills from '../data/skillsData';
 
 
 export default function Home() {
-    const mappedSkills = skillsData.map(item => {
-        return (
-            <div className="skills-card" key={item.category}>
-                <p id="skill-category">{item.category}</p>
-                <p id="skill-list">{item.skills}</p>
-            </div>
-        )
-    });
-
     return (
         <div className="home-content">
             <div id="logo-splash">
@@ -78,9 +69,7 @@ export default function Home() {
                 <div id="skills-img">
                     <img src={ skillsImg } alt="Skills" />
                 </div>
-                <div id="skills-container">
-                    { mappedSkills }
-                </div>
+                <Skills />
             </div>
             <div>
             <Link to="/work">
