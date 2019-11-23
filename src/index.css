@@ -607,12 +607,16 @@ textarea {
 (iPhone 5 and Samsung Galaxy S5) */
 @media screen and (max-width: 360px) {
   /* Navigation */
+  .navbar--hidden {
+      top: 0px;
+  }
+
   #nav-logo img {
-    height: 80px;
+    height: 60px;
   }
 
   #menu {
-    height: 80px;
+    height: 60px;
   }
   
   #menu li {
@@ -623,7 +627,7 @@ textarea {
   /* Home */
   #logo-splash {
     width: 100%;
-    margin: 10px 0px 50px 0px;
+    margin: 0px 0px 70px 0px;
   }
 
   #logo-splash img {
@@ -643,7 +647,7 @@ textarea {
   }
 
   #about-section p {
-    font-size: .95em;
+    font-size: 1em;
   }
 
   #skills-section {
@@ -880,12 +884,16 @@ textarea {
 (iPhone 6+, Google Pixel, iPads, etc.) */
 @media screen and (min-width: 360px) and (max-width: 768px) {
   /* Navigation */
+  .navbar--hidden {
+  top: 0px;
+  }
+
   #nav-logo img {
-    height: 100px;
+    height: 80px;
   }
 
   #menu {
-    height: 100px;
+    height: 80px;
   }
   
   #menu li {
@@ -913,7 +921,7 @@ textarea {
   }
 
   #about-section p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   #social-links {
