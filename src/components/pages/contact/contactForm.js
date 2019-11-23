@@ -20,7 +20,7 @@ let template_params = {
 // EmailJS consts
 const service_id = 'default_service';
 const template_id = 'jennaportfolio';
-const emailJSUserID = 'user_cVacpT4HoGWc7Omos0X8P'
+const emailJSUserID = 'user_cVacpT4HoGWc7Omos0X8P';
 
 
 // Yup schema
