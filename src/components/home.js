@@ -8,7 +8,6 @@ import {
     linkedinIcon,
     twitterIcon
 } from '../constants/faIcons';
-import { resumeLink } from '../assets/resume/JennaMichaelsResume.pdf'
 import skillsImg from '../assets/graphics/skills.svg';
 import Skills from '../data/skillsData';
 
