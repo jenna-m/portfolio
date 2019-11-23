@@ -208,12 +208,16 @@ button div {
 }
 
 /* Social Links */
-#github-link, #linkedin-link, #twitter-link {
-  transition: color .1s linear .1s
+#github-link, #resume-link, #linkedin-link, #twitter-link {
+  transition: color .15s linear .15s
 }
 
 #github-link:hover {
   color: #6e5494;
+}
+
+#resume-link:hover {
+  color: #2b7e78;
 }
 
 #linkedin-link:hover {
@@ -223,6 +227,7 @@ button div {
 #twitter-link:hover {
   color: #1DA1F2;
 }
+
 
 /* About */
 #about-section {
