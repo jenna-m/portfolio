@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/graphics/logoLG.svg';
-import skillsImg from '../assets/graphics/skills.svg';
+import About from '../data/aboutData';
 import {
     githubIcon,
+    resumeIcon,
     linkedinIcon,
     twitterIcon
 } from '../constants/faIcons';
-import About from '../data/aboutData';
+import { resumeLink } from '../assets/resume/JennaMichaelsResume.pdf'
+import skillsImg from '../assets/graphics/skills.svg';
 import Skills from '../data/skillsData';
 
 
@@ -32,6 +34,15 @@ export default function Home() {
                             rel="noopener noreferrer"
                             id="github-link">
                                 { githubIcon }
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.canva.com/design/DADsDSMzEHc/iVNMgHehzb4ziKE0TOPzOA/view?website#4" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            id="resume-link">
+                                { resumeIcon }
                         </a>
                     </li>
                     <li>
