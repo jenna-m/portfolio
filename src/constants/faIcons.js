@@ -5,8 +5,8 @@ import {
     faLinkedin,
     faTwitter
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import {
+    faFileAlt,
     faDesktop,
     faMobileAlt, 
     faChevronLeft,
@@ -15,8 +15,8 @@ import {
 
 // export FA icons
 export const githubIcon = <FontAwesomeIcon icon={faGithub} />;
+export const resumeIcon = <FontAwesomeIcon icon={faFileAlt} />;
 export const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />;
-export const contactIcon = <FontAwesomeIcon icon={faEnvelope} />;
 export const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
 export const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;
 export const mobileIcon = <FontAwesomeIcon icon={faMobileAlt} />;
