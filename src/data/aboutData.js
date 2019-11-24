@@ -8,7 +8,7 @@ export default function About() {
             </p>
             
             <p>
-                I believe that websites should be functional, accessible, beautiful, and scalable. I love to find ways to incorporate subtle, fun details in my projects; finding the right placement for these details allows me to combine my passion for good design and code.
+                I aim to create websites that are functional, accessible, beautiful, and scalable. I love to find ways to incorporate subtle, fun details in my projects; finding the right placement for these details allows me to combine my passion for good design and code.
             </p>
 
             <p>
