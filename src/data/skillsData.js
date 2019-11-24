@@ -10,7 +10,7 @@ export default function Skills() {
 
             <div className="skills-card">
                 <p id="skill-category">Libraries | Frameworks</p>
-                <p id="skill-list">React, Redux, Vue</p>
+                <p id="skill-list">React, Redux, Vue (novice)</p>
             </div>
 
             <div className="skills-card">
