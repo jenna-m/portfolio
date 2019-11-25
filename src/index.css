@@ -198,7 +198,7 @@ button div {
 
 #social-links {
   margin-top: 75px;
-  width: 100%;
+  width: 100vw;
 }
 
 #social-links li {
@@ -690,9 +690,9 @@ textarea {
   }
 
   #social-links li {
-    padding: 0px 4vw;
+    padding: 0px 3vw;
     display: inline;
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 
 
@@ -985,9 +985,9 @@ textarea {
   }
   
   #social-links li {
-    padding: 0px 5vw;
+    padding: 0px 4vw;
     display: inline;
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 
   #skills-section {
