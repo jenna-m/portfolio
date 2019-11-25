@@ -207,25 +207,75 @@ button div {
   font-size: 1.75em;
 }
 
-/* Social Links */
-#github-link, #angel-link, #resume-link, #linkedin-link {
-  transition: color .15s linear .15s
+/* Social Links Tooltips */
+[data-tooltip] {
+  position: relative;
+  z-index: 10;
 }
 
-#github-link:hover {
-  color: #6e5494;
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 5px);
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
 }
 
-#angel-link:hover {
-  color: #000000;
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+  content: attr(data-tooltip);
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  width: -moz-max-content;
+  background-color: #ffffff;
+  color: #1d1d1d;
+  font-size: .4em;
+  font-weight: 500;    
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px) scale(0.5);
 }
 
-#resume-link:hover {
-  color: #000000;
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
 }
 
-#linkedin-link:hover {
-  color: #2867b2;
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+  transition-delay: 0.2s;
+  transform: translate(-50%, -5px) scale(1);
+}
+
+/* Un-comment for Bottom Tooltip styling */
+/* [data-tooltip-location="bottom"]:before,
+[data-tooltip-location="bottom"]:after {
+  top: calc(100% + 5px);
+  bottom: auto;
+}
+
+[data-tooltip-location="bottom"]:before {
+  transform: translate(-50%, 5px) scale(0.5);
+}
+
+[data-tooltip-location="bottom"]:hover:before {
+  transform: translate(-50%, 5px) scale(1);
+}
+
+[data-tooltip-location="bottom"]:after {
+  border-width: 0px 5px 5px 5px;
+  border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+  transform-origin: bottom;
 }
 
 
