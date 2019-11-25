@@ -2,12 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/graphics/logoLG.svg';
 import About from '../data/aboutData';
-import {
-    githubIcon,
-    resumeIcon,
-    linkedinIcon,
-    twitterIcon
-} from '../constants/faIcons';
+import Social from '../data/socialData';
 import skillsImg from '../assets/graphics/skills.svg';
 import Skills from '../data/skillsData';
 
@@ -24,46 +19,7 @@ export default function Home() {
                 </Link>
             </div>
             <About />
-            <div>
-                <ul id="social-links">
-                    <li>
-                        <a 
-                            href="https://github.com/jenna-m" 
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            id="github-link">
-                                { githubIcon }
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.canva.com/design/DADsDSMzEHc/iVNMgHehzb4ziKE0TOPzOA/view?website#4" 
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            id="resume-link">
-                                { resumeIcon }
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/jenna-michaels/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            id="linkedin-link">
-                                { linkedinIcon }
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://twitter.com/_jennamichaels"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            id="twitter-link">
-                                { twitterIcon }
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <Social />
             <div id="skills-section">
                 <div id="skills-img">
                     <img src={ skillsImg } alt="Skills" />
