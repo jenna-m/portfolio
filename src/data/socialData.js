@@ -1,26 +1,16 @@
 import React from 'react';
 import {
-    githubIcon,
     angelListIcon,
-    resumeIcon,
     linkedinIcon,
+    resumeIcon,
+    githubIcon,
+    stackOverflowIcon
 } from '../constants/faIcons';
 
 export default function Social() {
     return (
         <div>
             <ul id="social-links">
-                <li>
-                    <a 
-                        href="https://github.com/jenna-m" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        id="github-link"
-                        data-tooltip="GitHub"
-                        data-tooltip-location="bottom">
-                            { githubIcon }
-                    </a>
-                </li>
                 <li>
                     <a
                         href="https://angel.co/jennamichaels" 
@@ -52,6 +42,28 @@ export default function Social() {
                         data-tooltip="Resume"
                         data-tooltip-location="bottom">
                             { resumeIcon }
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="https://github.com/jenna-m" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="github-link"
+                        data-tooltip="GitHub"
+                        data-tooltip-location="bottom">
+                            { githubIcon }
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="https://stackoverflow.com/story/jennamichaels" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="stackoverflow-link"
+                        data-tooltip="SO"
+                        data-tooltip-location="bottom">
+                            { stackOverflowIcon }
                     </a>
                 </li>
             </ul>
