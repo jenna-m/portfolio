@@ -208,7 +208,7 @@ button div {
 }
 
 /* Social Links */
-#github-link, #resume-link, #linkedin-link, #twitter-link {
+#github-link, #angel-link, #resume-link, #linkedin-link {
   transition: color .15s linear .15s
 }
 
@@ -216,16 +216,16 @@ button div {
   color: #6e5494;
 }
 
+#angel-link:hover {
+  color: #000000;
+}
+
 #resume-link:hover {
-  color: #2b7e78;
+  color: #000000;
 }
 
 #linkedin-link:hover {
-  color: #2867B2;
-}
-
-#twitter-link:hover {
-  color: #1DA1F2;
+  color: #2867b2;
 }
 
 
