@@ -21,7 +21,7 @@ export default function Social() {
                 </li>
                 <li>
                     <a
-                        href="https://angel.co/jennamichaels?public_profile=1" 
+                        href="https://angel.co/jennamichaels" 
                         target="_blank"
                         rel="noopener noreferrer"
                         id="angel-link">
