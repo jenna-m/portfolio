@@ -47,7 +47,7 @@ export const workData = [
         category: 'web',
         displayCategory: 'Web Development & Design',
         tools: 'React, Formik, EmailJS, react-stack-grid',
-        description: 'Artist and instructor Norman Ed was in need of a website. I included galleries to exhibit different periods of his artwork, pages to showcase his exhibitions and mentions in the press, a biography, contact form, and a randomized custom 404 page.',
+        description: 'Artist and instructor Norman Ed was in need of a website. I created a gallery to exhibit different periods of his artwork, pages to showcase his exhibitions and mentions in the press, a biography, contact form, and a randomized custom 404 page.',
         github: 'https://github.com/jenna-m/norman-ed',
         websiteURL: 'https://normaned.com',
         src: [
