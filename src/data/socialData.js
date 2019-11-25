@@ -21,10 +21,10 @@ export default function Social() {
                 </li>
                 <li>
                     <a
-                        href="https://angel.co/jennamichaels" 
+                        href="https://angel.co/jennamichaels?public_profile=1" 
                         target="_blank"
                         rel="noopener noreferrer"
-                        id="resume-link">
+                        id="angel-link">
                             { angelListIcon }
                     </a>
                 </li>
