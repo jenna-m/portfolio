@@ -196,14 +196,17 @@ button div {
   transition: all .35s ease-in-out;
 }
 
-#social-links {
+#social-link-container {
   margin-top: 75px;
-  width: 100vw;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-#social-links li {
-  padding: 0px 35px 0px 35px;
-  display: inline;
+.social-link {
+  flex-basis: auto;
   font-size: 1.75em;
 }
 
@@ -689,9 +692,11 @@ textarea {
     width: 90%;
   }
 
-  #social-links li {
-    padding: 0px 3vw;
-    display: inline;
+  #social-link-container {
+    width: 95%;
+  }
+
+  .social-link {
     font-size: 1.5em;
   }
 
@@ -979,14 +984,11 @@ textarea {
     font-size: 1.2em;
   }
 
-  #social-links {
-    margin-top: 75px;
-    width: 100%;
+  #social-link-container {
+    width: 95%;
   }
-  
-  #social-links li {
-    padding: 0px 4vw;
-    display: inline;
+
+  .social-link {
     font-size: 1.5em;
   }
 
