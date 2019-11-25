@@ -4,10 +4,9 @@ import {
     faGithub,
     faAngellist,
     faLinkedin,
-    faTwitter
 } from '@fortawesome/free-brands-svg-icons';
+import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 import {
-    faFileAlt,
     faDesktop,
     faMobileAlt, 
     faChevronLeft,
@@ -19,7 +18,6 @@ export const githubIcon = <FontAwesomeIcon icon={faGithub} />;
 export const angelListIcon = <FontAwesomeIcon icon={faAngellist} />;
 export const resumeIcon = <FontAwesomeIcon icon={faFileAlt} />;
 export const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />;
-export const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
 export const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;
 export const mobileIcon = <FontAwesomeIcon icon={faMobileAlt} />;
 export const backIcon = <FontAwesomeIcon icon={faChevronLeft} />;
