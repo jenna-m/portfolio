@@ -5,7 +5,7 @@ export default function Skills() {
         <div id="skills-container">
             <div className="skills-card">
                 <p id="skill-category">Languages</p>
-                <p id="skill-list">JavaScript, HTML3, CSS3, Python</p>
+                <p id="skill-list">JavaScript ES6+, HTML3, CSS3, Python3</p>
             </div>
 
             <div className="skills-card">
@@ -40,7 +40,7 @@ export default function Skills() {
 
             <div className="skills-card">
                 <p id="skill-category">Concepts</p>
-                <p id="skill-list">Responsive Design, Web Accessibility, Wireframing, OOP, Mobile-First Development, Agile Development</p>
+                <p id="skill-list">Responsive Design, Web Accessibility, Wireframing, OOP, Mobile-First Development, Agile Development, Git Version Control</p>
             </div>
         </div>
     )
