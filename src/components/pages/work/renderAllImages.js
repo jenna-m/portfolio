@@ -3,50 +3,51 @@ import RenderImage from './renderImage';
 import { workData } from '../../../data/workData';
 import { backIcon } from '../../../constants/faIcons';
 
-
-
 export default class RenderAllImages extends React.Component {
-    constructor(props) {
-        super(props);
+	constructor(props) {
+		super(props);
 
-        let projectItemId = new URLSearchParams(window.location.search).get("id");
-        
-        if (projectItemId) {
-            projectItemId = parseInt(projectItemId, 10);
-        }
+		let projectItemId = new URLSearchParams(window.location.search).get(
+			'id'
+		);
 
-        this.state = {
-          project: workData.find(project => project.id === projectItemId)
-        };
-    }
+		if (projectItemId) {
+			projectItemId = parseInt(projectItemId, 10);
+		}
 
-    render() {
-        const project = this.state.project
+		this.state = {
+			project: workData.find(project => project.id === projectItemId)
+		};
+	}
 
-        // declare an array to be rendered by ItemImages component
-        const allImages = [];
-        // add each SRC to desktopImages array
-        project.src.forEach( (src, i, title) => {
-            allImages.push(<RenderImage imageURL={src} key={i} alt={title} />)
-        });
+	render() {
+		const project = this.state.project;
 
+		// declare an array to be rendered by ItemImages component
+		const allImages = [];
+		// add each SRC to desktopImages array
+		project.src.forEach((src, i, title) => {
+			allImages.push(<RenderImage imageURL={src} key={i} alt={title} />);
+		});
 
-        // backButton to take user to beginning of page
-        const reposition = () => {
-            window.scroll({top: 150, left: 0, behavior: 'smooth' });
-        }
-        
-        const backButton = () => {
-            return (
-                <button id="back-button" onClick={reposition}>{backIcon}</button>
-            )
-        }
+		// backButton to take user to beginning of page
+		const reposition = () => {
+			window.scroll({ top: 150, left: 0, behavior: 'smooth' });
+		};
 
-        return (
-            <section id="all-project-images">
-                { allImages }
-                { backButton() }
-            </section>
-        );
-    }
-};
+		const backButton = () => {
+			return (
+				<button id="back-button" onClick={reposition}>
+					{backIcon}
+				</button>
+			);
+		};
+
+		return (
+			<section id="all-project-images">
+				{allImages}
+				{backButton()}
+			</section>
+		);
+	}
+}

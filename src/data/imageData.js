@@ -45,43 +45,47 @@ import adornLogo from '../assets/workImages/graphicDesign/adorn/adornLogo1.png';
 import adornWindow1 from '../assets/workImages/graphicDesign/adorn/adornWindow1.png';
 import adornWindow2 from '../assets/workImages/graphicDesign/adorn/adornWindow2.png';
 
-
 // export all images
 export {
-    // Norman Ed
-    normanEdHome, normanEdGallery, normanEdItem,
-    normanEdExhibitions, normanEdPress, normanEdContact,
-
-    // Redux Co.
-    reduxCoHome1, reduxCoHome2, reduxCoCategory,
-    reduxCoItem, reduxCoCart1, reduxCoCart2,
-    reduxCoCart3, reduxCo4041, reduxCo4042,
-
-    // Indoor Cities
-    indoorCitiesAlbum,
-    indoorCitiesLogo,
-    indoorCitiesPoster,
-    indoorCitiesWebsite,
-
-    // Floor Overhead
-    floorOverheadDemo1,
-    floorOverheadDemo2,
-    floorOverheadDemo3,
-    floorOverheadDemo4,
-    floorOverheadDemo5,
-    floorOverheadDemo6,
-    floorOverheadSocial1,
-    floorOverheadSocial2,
-    floorOverheadSocial3,
-
-    // Baking Demystified
-    bakingDemystifiedLogo1,
-    bakingDemystifiedLogo2,
-    bakingDemystifiedLogo3,
-    bakingDemystifiedYoutube,
-
-    // Adorn
-    adornLogo,
-    adornWindow1,
-    adornWindow2,
+	// Norman Ed
+	normanEdHome,
+	normanEdGallery,
+	normanEdItem,
+	normanEdExhibitions,
+	normanEdPress,
+	normanEdContact,
+	// Redux Co.
+	reduxCoHome1,
+	reduxCoHome2,
+	reduxCoCategory,
+	reduxCoItem,
+	reduxCoCart1,
+	reduxCoCart2,
+	reduxCoCart3,
+	reduxCo4041,
+	reduxCo4042,
+	// Indoor Cities
+	indoorCitiesAlbum,
+	indoorCitiesLogo,
+	indoorCitiesPoster,
+	indoorCitiesWebsite,
+	// Floor Overhead
+	floorOverheadDemo1,
+	floorOverheadDemo2,
+	floorOverheadDemo3,
+	floorOverheadDemo4,
+	floorOverheadDemo5,
+	floorOverheadDemo6,
+	floorOverheadSocial1,
+	floorOverheadSocial2,
+	floorOverheadSocial3,
+	// Baking Demystified
+	bakingDemystifiedLogo1,
+	bakingDemystifiedLogo2,
+	bakingDemystifiedLogo3,
+	bakingDemystifiedYoutube,
+	// Adorn
+	adornLogo,
+	adornWindow1,
+	adornWindow2
 };
