@@ -12,6 +12,7 @@
     "classnames": "^2.2.6",
     "emailjs-com": "^2.4.1",
     "formik": "^1.5.8",
+    "node-sass": "^4.13.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-responsive": "^8.0.1",
