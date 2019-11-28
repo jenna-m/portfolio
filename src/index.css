@@ -683,7 +683,7 @@ textarea {
 
 	/* Home */
 	#logo-container {
-		width: 100%;
+		width: 100vw;
 		margin: 0px 0px 70px 0px;
 	}
 
@@ -960,7 +960,7 @@ textarea {
 	}
 
 	#logo-container {
-		width: 100%;
+		width: 100vw;
 		margin: 80px 0px 65px 0px;
 	}
 
