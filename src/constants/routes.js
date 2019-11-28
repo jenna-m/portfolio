@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 //Import page components
-import Home from '../components/home';
+import Home from '../components/pages/home/home';
 import Work from '../components/pages/work/work';
 import ProjectPage from '../components/pages/work/projectPage';
 import Contact from '../components/pages/contact/contact';

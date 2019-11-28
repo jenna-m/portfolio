@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/graphics/logoLG.svg';
-import About from '../data/aboutData';
-import Social from '../data/socialData';
-import skillsImg from '../assets/graphics/skills.svg';
-import Skills from '../data/skillsData';
+import Logo from './logo';
+import About from '../../../data/aboutData';
+import Social from '../../../data/socialData';
+import skillsImg from '../../../assets/graphics/skills.svg';
+import Skills from '../../../data/skillsData';
 
 export default function Home() {
 	return (
 		<div className="home-content">
-			<div id="logo-splash">
-				<img src={logo} alt="Jenna Michaels Logo" />
-			</div>
+			<Logo />
 			<div>
 				<Link to="/contact">
 					<button data-hover="get in touch">
