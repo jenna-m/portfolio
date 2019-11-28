@@ -121,7 +121,7 @@ a {
 /* Home */
 .home-content {
 	width: 100%;
-	margin-top: 200px;
+	margin-top: 175px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -131,7 +131,7 @@ a {
 
 /* Logo Styling */
 #logo-wrapper {
-	padding: 50px 0px;
+	margin: 50px 0px 80px;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
