@@ -138,15 +138,17 @@ a {
 }
 
 #logo-splash {
-	width: 55%;
-	margin: 20px 0px 80px 0px;
+	width: 100vw;
+	margin: 20px 0px 75px 0px;
+	padding: 25px 0px 45px 0px;
 	display: flex;
 	flex-direction: column;
+	background-color: #000000;
 }
 
 #logo-splash img {
 	margin: 0 auto;
-	width: 100%;
+	width: 35%;
 }
 
 /* Home sliding button styling */
@@ -155,7 +157,7 @@ button:hover {
 }
 button {
 	padding: 15px 30px;
-	margin: 10px 0px 75px;
+	margin-bottom: 55px;
 	overflow: hidden;
 	position: relative;
 	background: transparent;
@@ -241,7 +243,7 @@ button div {
 	width: max-content;
 	width: -moz-max-content;
 	background-color: #ffffff;
-	color: #1d1d1d;
+	color: #000000;
 	font-size: 0.4em;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -264,27 +266,26 @@ button div {
 	transform: translate(-50%, -5px) scale(1);
 }
 
-/* Un-comment for Bottom Tooltip styling */
-/* [data-tooltip-location="bottom"]:before,
-[data-tooltip-location="bottom"]:after {
-  top: calc(100% + 5px);
-  bottom: auto;
+/* Bottom-positioned Tooltip styling */
+[data-tooltip-location='bottom']:before,
+[data-tooltip-location='bottom']:after {
+	top: calc(100% + 5px);
+	bottom: auto;
 }
 
-[data-tooltip-location="bottom"]:before {
-  transform: translate(-50%, 5px) scale(0.5);
+[data-tooltip-location='bottom']:before {
+	transform: translate(-50%, 5px) scale(0.5);
 }
 
-[data-tooltip-location="bottom"]:hover:before {
-  transform: translate(-50%, 5px) scale(1);
+[data-tooltip-location='bottom']:hover:before {
+	transform: translate(-50%, 5px) scale(1);
 }
 
-[data-tooltip-location="bottom"]:after {
-  border-width: 0px 5px 5px 5px;
-  border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
-  transform-origin: bottom;
+[data-tooltip-location='bottom']:after {
+	border-width: 0px 5px 5px 5px;
+	border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+	transform-origin: bottom;
 }
-
 
 /* About */
 #about-section {
