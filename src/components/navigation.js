@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/graphics/logoSM.svg';
+import logo from '../assets/graphics/menuLogo.svg';
 
 export default class Navigation extends React.Component {
 	constructor(props) {
