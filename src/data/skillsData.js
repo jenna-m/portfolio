@@ -10,12 +10,12 @@ export default function Skills() {
 
 			<div className="skills-card">
 				<p id="skill-category">Libraries | Frameworks</p>
-				<p id="skill-list">React, Redux, Vue (novice)</p>
+				<p id="skill-list">React, Redux</p>
 			</div>
 
 			<div className="skills-card">
 				<p id="skill-category">Deployment</p>
-				<p id="skill-list">Netlify, AWS (Lambda, S3), GoDaddy</p>
+				<p id="skill-list">Netlify, AWS (Lambda, S3)</p>
 			</div>
 
 			<div className="skills-card">
@@ -30,7 +30,7 @@ export default function Skills() {
 
 			<div className="skills-card">
 				<p id="skill-category">Tools</p>
-				<p id="skill-list">VSCode, CLI, GitHub, npm</p>
+				<p id="skill-list">VSCode, GitHub, npm</p>
 			</div>
 
 			<div className="skills-card">
@@ -43,9 +43,9 @@ export default function Skills() {
 			<div className="skills-card">
 				<p id="skill-category">Concepts</p>
 				<p id="skill-list">
-					Responsive Design, Web Accessibility, Wireframing, OOP,
-					Mobile-First Development, Agile Development, Git Version
-					Control
+					Web Accessibility, Wireframing, OOP, Responsive Design,
+					Mobile-First Development, Git Version Control, Agile
+					Methodology
 				</p>
 			</div>
 		</div>
