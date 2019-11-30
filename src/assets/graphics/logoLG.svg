@@ -4,7 +4,7 @@
 <style>
     path {
         animation-name: pathFillMode;
-        animation-duration: 4.5s;
+        animation-duration: 3.5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
