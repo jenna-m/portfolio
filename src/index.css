@@ -90,7 +90,7 @@ a {
 	font-size: 0.65em;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
-	color: #cccccc;
+	color: #595959;
 }
 
 /* 404 Page */
@@ -323,7 +323,7 @@ button div {
 	letter-spacing: 0.02em;
 }
 
-#skill-category {
+.skill-category {
 	color: #1d1d1d;
 	font-size: 0.75em;
 	font-weight: 500;
@@ -332,7 +332,7 @@ button div {
 	line-height: 0;
 }
 
-#skill-list {
+.skill-list {
 	padding-bottom: 10px;
 }
 
@@ -739,12 +739,12 @@ textarea {
 		font-size: 0.95em;
 	}
 
-	#skill-category {
+	.skill-category {
 		font-size: 0.8em;
 		line-height: 0.5em;
 	}
 
-	#skill-list {
+	.skill-list {
 		padding-bottom: 15px;
 	}
 
@@ -1020,12 +1020,12 @@ textarea {
 		font-size: 1em;
 	}
 
-	#skill-category {
+	.skill-category {
 		font-size: 0.85em;
 		line-height: 0.5em;
 	}
 
-	#skill-list {
+	.skill-list {
 		padding-bottom: 15px;
 	}
 
