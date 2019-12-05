@@ -104,7 +104,7 @@ export const ContactForm = () => {
 								className="field"
 								type="name"
 								name="name"
-								placeholder="{{ your name }}"
+								placeholder="your name"
 								onBlur={handleBlur}
 							/>
 							<ErrorMessage name="name" component="error-text" />
@@ -118,7 +118,7 @@ export const ContactForm = () => {
 								className="field"
 								type="email"
 								name="email"
-								placeholder="{{ you@example.com }}"
+								placeholder="you@example.com"
 								onBlur={handleBlur}
 							/>
 							<ErrorMessage name="email" component="error-text" />
