@@ -9,17 +9,17 @@ export default function About() {
 			</div>
 			<div id="about-text">
 				<p>
-					Jenna resides in Johnstown, Pennsylvania, where she works
-					from home as a freelance Front-End Web Developer. She enjoys
-					working with React, HTML, and CSS. With a strong background
-					in graphic arts, she strives to fuse clean code with good
-					design and create functional, accessible, scalable, and
-					beautiful web applications.
+					Jenna Michaels resides in Johnstown, Pennsylvania, where she
+					works from home as a freelance Front-End Web Developer. She
+					enjoys working with React, HTML, and CSS. With a strong
+					background in graphic arts, she strives to fuse clean code
+					with good design and create functional, accessible,
+					scalable, and beautiful web applications.
 				</p>
 
 				<p>
-					When not at the computer, she can be found hanging out with
-					her husband and pup, making summer rolls, knitting up a
+					When not at the computer, Jenna can be found hanging out
+					with her husband and pup, making summer rolls, knitting up a
 					storm, or tackling a home improvement venture.
 				</p>
 			</div>
