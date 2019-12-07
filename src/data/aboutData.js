@@ -1,27 +1,28 @@
 import React from 'react';
+import profile from '../assets/graphics/jennaProfile.jpg';
 
 export default function About() {
 	return (
 		<div id="about-section">
-			<p>
-				I’m a self-taught front-end web developer and graphic designer.
-				Always learning and looking for more opportunity to do so, I am
-				open to freelance projects and full-time remote employment.
-			</p>
+			<div id="about-image">
+				<img src={profile} alt="Portrait of Jenna Michaels" />
+			</div>
+			<div id="about-text">
+				<p>
+					Jenna resides in Johnstown, Pennsylvania, where she works
+					from home as a freelance Front-End Web Developer. She enjoys
+					working with React, HTML, and CSS. With a strong background
+					in graphic arts, she strives to fuse clean code with good
+					design to create functional, accessible, scalable, and
+					beautiful web applications.
+				</p>
 
-			<p>
-				I aim to create websites that are functional, accessible,
-				beautiful, and scalable. I love to find ways to incorporate
-				subtle, fun details in my projects; finding the right placement
-				for these details allows me to combine my passion for good
-				design and code.
-			</p>
-
-			<p>
-				When not at the computer, I enjoy making things with my
-				hands—whether it’s trying out a new recipe, a textile project,
-				gardening, or tackling a home improvement venture.
-			</p>
+				<p>
+					When not at the computer, she can be found hanging out with
+					her husband and pup, making summer rolls, knitting up a
+					storm, or tackling a home improvement venture.
+				</p>
+			</div>
 		</div>
 	);
 }
