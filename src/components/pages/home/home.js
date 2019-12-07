@@ -25,11 +25,6 @@ export default function Home() {
 				</div>
 				<Skills />
 			</div>
-			<div>
-				<Link to="/work">
-					<button>see my work</button>
-				</Link>
-			</div>
 		</div>
 	);
 }
