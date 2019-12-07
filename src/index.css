@@ -42,7 +42,7 @@ a {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: #ffffff;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -148,7 +148,7 @@ button:hover {
 }
 button {
 	padding: 15px 30px;
-	margin-bottom: 55px;
+	margin-bottom: 100px;
 	overflow: hidden;
 	position: relative;
 	background: transparent;
@@ -193,8 +193,34 @@ button div {
 	transition: all 0.35s ease-in-out;
 }
 
+/* About */
+#about-section {
+	margin-bottom: 100px;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#about-image {
+	width: 28%;
+}
+
+#about-image img {
+	width: 100%;
+}
+
+#about-text {
+	width: 60%;
+	font-size: 0.9em;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+}
+
+/* Social Links Section */
 #social-link-container {
-	margin-top: 75px;
 	width: 80%;
 	display: flex;
 	flex-direction: row;
@@ -278,18 +304,7 @@ button div {
 	transform-origin: bottom;
 }
 
-/* About */
-#about-section {
-	width: 55%;
-}
-
-#about-section p {
-	font-size: 0.9em;
-	font-weight: 400;
-	letter-spacing: 0.02em;
-	line-height: 1.8em;
-}
-
+/* Skills Section */
 #skills-section {
 	margin: 150px 0px 100px;
 	width: 80%;
@@ -664,10 +679,6 @@ textarea {
 (iPhone 5 and Samsung Galaxy S5) */
 @media screen and (max-width: 360px) {
 	/* Navigation */
-	.navbar {
-		background-color: rgba(255, 255, 255, 0.75);
-	}
-
 	.navbar--hidden {
 		top: 0px;
 	}
@@ -695,6 +706,23 @@ textarea {
 		width: 90%;
 	}
 
+	/* About */
+	#about-section {
+		width: 90%;
+		flex-direction: column;
+	}
+
+	#about-image {
+		margin-bottom: 40px;
+		width: 60%;
+	}
+
+	#about-text {
+		width: 90%;
+		font-size: 1em;
+	}
+
+	/* Social Links */
 	#social-link-container {
 		width: 95%;
 	}
@@ -703,15 +731,7 @@ textarea {
 		font-size: 1.5em;
 	}
 
-	/* About */
-	#about-section {
-		width: 90%;
-	}
-
-	#about-section p {
-		font-size: 1em;
-	}
-
+	/* Skills Section */
 	#skills-section {
 		margin-top: 110px;
 		width: 90%;
@@ -941,10 +961,6 @@ textarea {
 (iPhone 6+, Google Pixel, iPads, etc.) */
 @media screen and (min-width: 360px) and (max-width: 768px) {
 	/* Navigation */
-	.navbar {
-		background-color: rgba(255, 255, 255, 0.75);
-	}
-
 	.navbar--hidden {
 		top: 0px;
 	}
@@ -979,10 +995,17 @@ textarea {
 	/* About */
 	#about-section {
 		width: 90%;
+		flex-direction: column;
 	}
 
-	#about-section p {
-		font-size: 1.2em;
+	#about-image {
+		margin-bottom: 40px;
+		width: 60%;
+	}
+
+	#about-text {
+		width: 90%;
+		font-size: 1em;
 	}
 
 	#social-link-container {
