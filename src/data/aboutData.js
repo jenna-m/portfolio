@@ -13,7 +13,7 @@ export default function About() {
 					from home as a freelance Front-End Web Developer. She enjoys
 					working with React, HTML, and CSS. With a strong background
 					in graphic arts, she strives to fuse clean code with good
-					design to create functional, accessible, scalable, and
+					design and create functional, accessible, scalable, and
 					beautiful web applications.
 				</p>
 
