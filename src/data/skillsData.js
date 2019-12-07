@@ -45,7 +45,7 @@ export default function Skills() {
 			<div className="skills-card">
 				<p className="skill-category">Concepts</p>
 				<p className="skill-list">
-					Web Accessibility, Wireframing, OOP, Responsive Design,
+					Web Accessibility, Wireframing, Responsive Design,
 					Mobile-First Development, Git Version Control, Agile
 					Methodology
 				</p>
