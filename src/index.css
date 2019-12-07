@@ -195,7 +195,7 @@ button div {
 
 /* About */
 #about-section {
-	margin-bottom: 100px;
+	margin: 80px 0px 100px;
 	width: 70%;
 	display: flex;
 	flex-direction: row;
@@ -306,7 +306,7 @@ button div {
 
 /* Skills Section */
 #skills-section {
-	margin: 150px 0px 100px;
+	margin: 180px 0px 100px;
 	width: 80%;
 	display: flex;
 	flex-direction: row;
@@ -708,6 +708,7 @@ textarea {
 
 	/* About */
 	#about-section {
+		margin: 100px 0px 60px;
 		width: 90%;
 		flex-direction: column;
 	}
@@ -994,6 +995,7 @@ textarea {
 
 	/* About */
 	#about-section {
+		margin: 25px 0px 60px;
 		width: 90%;
 		flex-direction: column;
 	}
