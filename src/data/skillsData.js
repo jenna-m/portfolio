@@ -6,7 +6,7 @@ export default function Skills() {
 			<div className="skills-card">
 				<p className="skill-category">Languages</p>
 				<p className="skill-list">
-					JavaScript ES6+, HTML3, CSS3, Python3
+					JavaScript, HTML, CSS & Sass, Python3
 				</p>
 			</div>
 

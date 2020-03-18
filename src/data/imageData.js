@@ -1,3 +1,12 @@
+// Lemon Angel Website
+import lemonAngelLanding from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelLanding.png';
+import lemonAngelAbout from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelAbout.png';
+import lemonAngelWork from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelWork.png';
+import lemonAngelContact from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelContact.png';
+
+// Lemon Angel Logo
+import lemonAngelLogo from '../assets/workImages/graphicDesign/lemonAngel/lemonAngelLogo.png';
+
 // Norman Ed
 import normanEdHome from '../assets/workImages/webDevelopment/normanEd/normanEdHome.png';
 import normanEdGallery from '../assets/workImages/webDevelopment/normanEd/normanEdGallery.png';
@@ -47,6 +56,13 @@ import adornWindow2 from '../assets/workImages/graphicDesign/adorn/adornWindow2.
 
 // export all images
 export {
+	// Lemon Angel
+	lemonAngelLanding,
+	lemonAngelAbout,
+	lemonAngelWork,
+	lemonAngelContact,
+	//Lemon Angel Logo
+	lemonAngelLogo,
 	// Norman Ed
 	normanEdHome,
 	normanEdGallery,

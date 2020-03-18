@@ -1,5 +1,14 @@
 // import all images
 import {
+	// Lemon Angel Website
+	lemonAngelLanding,
+	lemonAngelAbout,
+	lemonAngelWork,
+	lemonAngelContact,
+
+	// Lemon Angel Logo
+	lemonAngelLogo,
+
 	// Norman Ed
 	normanEdHome,
 	normanEdGallery,
@@ -49,6 +58,35 @@ import {
 } from './imageData.js';
 
 export const workData = [
+	{
+		id: 8,
+		title: 'Lemon Angel',
+		year: '2020',
+		category: 'web',
+		displayCategory: 'Web Development & Design',
+		tools: 'React, Sass',
+		description:
+			'Pastry chef Elizabeth Garcia was looking for a way to showcase her talent and provide an easy way for her customers to get in touch with her. With a few colors she enjoys, I created a colorful, yet minimal, portfolio and animated logo design.',
+		github: 'https://github.com/jenna-m/lemon-angel',
+		websiteURL: 'https://lemonangel.net',
+		src: [
+			lemonAngelLanding,
+			lemonAngelAbout,
+			lemonAngelWork,
+			lemonAngelContact
+		]
+	},
+	{
+		id: 7,
+		title: 'Lemon Angel Logo',
+		year: '2020',
+		category: 'graphic',
+		displayCategory: 'Graphic Design',
+		tools: 'Adobe Illustrator',
+		description:
+			'Pastry chef Elizabeth Garcia needed a new logo for use on the web and in print. With the opportunity to experiment with typography and SVG animation, I produced this playful design which the client enthusiastically calls "groovy." The full animation can be viewed on her website, lemonangel.net.',
+		src: [lemonAngelLogo]
+	},
 	{
 		id: 6,
 		title: 'Norman Ed',
