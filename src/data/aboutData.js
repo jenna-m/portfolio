@@ -12,9 +12,9 @@ export default function About() {
 					Jenna Michaels resides in Johnstown, Pennsylvania, where she
 					works from home as a freelance Front-End Web Developer. She
 					enjoys working with React, HTML, and CSS. With a strong
-					background in graphic arts, she strives to fuse clean code
-					with good design and create functional, accessible,
-					scalable, and beautiful web applications.
+					background in graphic arts, she strives to fuse her skills
+					to create functional, accessible, scalable, and beautiful
+					web applications.
 				</p>
 
 				<p>
