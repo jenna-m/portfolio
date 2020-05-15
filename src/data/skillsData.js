@@ -21,16 +21,6 @@ export default function Skills() {
 			</div>
 
 			<div className="skills-card">
-				<p className="skill-category">Back-End (novice)</p>
-				<p className="skill-list">Node.js, Express</p>
-			</div>
-
-			<div className="skills-card">
-				<p className="skill-category">Databases (novice)</p>
-				<p className="skill-list">MongoDB, MySQL</p>
-			</div>
-
-			<div className="skills-card">
 				<p className="skill-category">Tools</p>
 				<p className="skill-list">VSCode, GitHub, npm</p>
 			</div>
@@ -38,7 +28,8 @@ export default function Skills() {
 			<div className="skills-card">
 				<p className="skill-category">Applications</p>
 				<p className="skill-list">
-					Adobe Photoshop, Illustrator, and XD; Autodesk Fusion 360
+					Adobe Photoshop, Illustrator, and XD; Autodesk Fusion 360,
+					Blender
 				</p>
 			</div>
 
