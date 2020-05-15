@@ -1,5 +1,13 @@
 // import all images
 import {
+	// Summer Rolls
+	summerRolls1,
+	summerRolls2,
+	summerRolls3,
+	summerRolls4,
+	summerRolls5,
+	summerRolls6,
+
 	// Lemon Angel Website
 	lemonAngelLanding,
 	lemonAngelAbout,
@@ -54,10 +62,30 @@ import {
 	// Adorn
 	adornLogo,
 	adornWindow1,
-	adornWindow2
+	adornWindow2,
 } from './imageData.js';
 
 export const workData = [
+	{
+		id: 9,
+		title: 'Summer Rolls Documentation',
+		year: '2020',
+		category: 'web',
+		displayCategory: 'Web Development & Design',
+		tools: 'React',
+		description:
+			'This project was a practice in writing documentation of a process. Creating a website with a minimal design, I aimed to outline a brief history of summer rolls, some tips, and the steps to making the rolls. I photographed the process and added animation for clarity and interest.',
+		github: 'https://github.com/jenna-m/summer-rolls',
+		websiteURL: 'https://summer-rolls.netlify.com',
+		src: [
+			summerRolls1,
+			summerRolls2,
+			summerRolls3,
+			summerRolls4,
+			summerRolls5,
+			summerRolls6,
+		],
+	},
 	{
 		id: 8,
 		title: 'Lemon Angel',
@@ -73,8 +101,8 @@ export const workData = [
 			lemonAngelLanding,
 			lemonAngelAbout,
 			lemonAngelWork,
-			lemonAngelContact
-		]
+			lemonAngelContact,
+		],
 	},
 	{
 		id: 7,
@@ -85,7 +113,7 @@ export const workData = [
 		tools: 'Adobe Illustrator',
 		description:
 			'Pastry chef Elizabeth Garcia needed a new logo for use on the web and in print. With the opportunity to experiment with typography and SVG animation, I produced this playful design which the client enthusiastically calls "groovy." The full animation can be viewed on her website, lemonangel.net.',
-		src: [lemonAngelLogo]
+		src: [lemonAngelLogo],
 	},
 	{
 		id: 6,
@@ -104,8 +132,8 @@ export const workData = [
 			normanEdItem,
 			normanEdExhibitions,
 			normanEdPress,
-			normanEdContact
-		]
+			normanEdContact,
+		],
 	},
 	{
 		id: 5,
@@ -127,8 +155,8 @@ export const workData = [
 			reduxCoCart2,
 			reduxCoCart3,
 			reduxCo4041,
-			reduxCo4042
-		]
+			reduxCo4042,
+		],
 	},
 	{
 		id: 4,
@@ -139,7 +167,7 @@ export const workData = [
 		tools: 'Adobe Photoshop, Illustrator',
 		description:
 			'Jewelry and home decor storefront Adorn needed a logo redesign and window art. For the logo redesign, I incorporated a softer blush color to contrast the modern geometric design. For the window art, I stayed true to the minimal and geometric direction.',
-		src: [adornLogo, adornWindow1, adornWindow2]
+		src: [adornLogo, adornWindow1, adornWindow2],
 	},
 	{
 		id: 3,
@@ -154,8 +182,8 @@ export const workData = [
 			bakingDemystifiedYoutube,
 			bakingDemystifiedLogo1,
 			bakingDemystifiedLogo2,
-			bakingDemystifiedLogo3
-		]
+			bakingDemystifiedLogo3,
+		],
 	},
 	{
 		id: 2,
@@ -175,8 +203,8 @@ export const workData = [
 			floorOverheadSocial2,
 			floorOverheadDemo4,
 			floorOverheadDemo5,
-			floorOverheadDemo6
-		]
+			floorOverheadDemo6,
+		],
 	},
 	{
 		id: 1,
@@ -191,7 +219,7 @@ export const workData = [
 			indoorCitiesAlbum,
 			indoorCitiesWebsite,
 			indoorCitiesLogo,
-			indoorCitiesPoster
-		]
-	}
+			indoorCitiesPoster,
+		],
+	},
 ];

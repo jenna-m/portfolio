@@ -1,3 +1,11 @@
+// Summer Rolls Website
+import summerRolls1 from '../assets/workImages/webDevelopment/summerRolls/summerRolls1.png';
+import summerRolls2 from '../assets/workImages/webDevelopment/summerRolls/summerRolls2.png';
+import summerRolls3 from '../assets/workImages/webDevelopment/summerRolls/summerRolls3.png';
+import summerRolls4 from '../assets/workImages/webDevelopment/summerRolls/summerRolls4.png';
+import summerRolls5 from '../assets/workImages/webDevelopment/summerRolls/summerRolls5.png';
+import summerRolls6 from '../assets/workImages/webDevelopment/summerRolls/summerRolls6.png';
+
 // Lemon Angel Website
 import lemonAngelLanding from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelLanding.png';
 import lemonAngelAbout from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelAbout.png';
@@ -56,6 +64,13 @@ import adornWindow2 from '../assets/workImages/graphicDesign/adorn/adornWindow2.
 
 // export all images
 export {
+	//Summer Rolls
+	summerRolls1,
+	summerRolls2,
+	summerRolls3,
+	summerRolls4,
+	summerRolls5,
+	summerRolls6,
 	// Lemon Angel
 	lemonAngelLanding,
 	lemonAngelAbout,
@@ -103,5 +118,5 @@ export {
 	// Adorn
 	adornLogo,
 	adornWindow1,
-	adornWindow2
+	adornWindow2,
 };
