@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { workData } from '../../../data/workData';
-import { desktopIcon, mobileIcon } from '../../../constants/faIcons';
 import RenderAllImages from './renderAllImages';
 
 class ProjectPage extends React.Component {
@@ -17,23 +16,14 @@ class ProjectPage extends React.Component {
 		}
 
 		this.state = {
-			project: workData.find(project => project.id === currentProjectID)
+			project: workData.find(
+				(project) => project.id === currentProjectID
+			),
 		};
 	}
 
 	render() {
 		const project = this.state.project;
-
-		// conditionally render Desktop/Mobile icons (for web projects only)
-		const showDesktopMobileIcons = () => {
-			if (project.category === 'web') {
-				return (
-					<div id="web-icons">
-						{desktopIcon} {mobileIcon}
-					</div>
-				);
-			}
-		};
 
 		// conditionally render github and/or website links (for web projects only)
 		const showLinks = () => {
@@ -98,9 +88,7 @@ class ProjectPage extends React.Component {
 					</div>
 					<div id="project-text">
 						<div id="project-title">
-							<h2>
-								{project.title} {showDesktopMobileIcons()}
-							</h2>
+							<h2>{project.title}</h2>
 							<p id="made-with">Made with {project.tools}</p>
 							{showLinks()}
 						</div>
