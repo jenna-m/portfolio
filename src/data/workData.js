@@ -1,12 +1,10 @@
 // import all images
 import {
-	// Summer Rolls
-	summerRolls1,
-	summerRolls2,
-	summerRolls3,
-	summerRolls4,
-	summerRolls5,
-	summerRolls6,
+	// OpenStreetMap
+	openStreetMap1,
+	openStreetMap2,
+	openStreetMap3,
+	openStreetMap4,
 
 	// Lemon Angel Website
 	lemonAngelLanding,
@@ -16,6 +14,14 @@ import {
 
 	// Lemon Angel Logo
 	lemonAngelLogo,
+
+	// Summer Rolls
+	summerRolls1,
+	summerRolls2,
+	summerRolls3,
+	summerRolls4,
+	summerRolls5,
+	summerRolls6,
 
 	// Norman Ed
 	normanEdHome,
@@ -66,6 +72,19 @@ import {
 } from './imageData.js';
 
 export const workData = [
+	{
+		id: 10,
+		title: 'OpenStreetMap Documentation',
+		year: '2020',
+		category: 'web',
+		displayCategory: 'Web Development & Design',
+		tools: 'React, Sass, Photoshop',
+		description:
+			'This project was a practice in writing technical documentation. With a minimal design, I documented how to add information to OpenStreetMap and included marked-up screenshots for clarity.',
+		github: 'https://github.com/jenna-m/osm-tutorial',
+		websiteURL: 'https://openstreetmaptutorial.netlify.app/',
+		src: [openStreetMap1, openStreetMap2, openStreetMap3, openStreetMap4],
+	},
 	{
 		id: 9,
 		title: 'Lemon Angel',

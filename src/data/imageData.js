@@ -1,10 +1,8 @@
-// Summer Rolls Website
-import summerRolls1 from '../assets/workImages/webDevelopment/summerRolls/summerRolls1.png';
-import summerRolls2 from '../assets/workImages/webDevelopment/summerRolls/summerRolls2.png';
-import summerRolls3 from '../assets/workImages/webDevelopment/summerRolls/summerRolls3.png';
-import summerRolls4 from '../assets/workImages/webDevelopment/summerRolls/summerRolls4.png';
-import summerRolls5 from '../assets/workImages/webDevelopment/summerRolls/summerRolls5.png';
-import summerRolls6 from '../assets/workImages/webDevelopment/summerRolls/summerRolls6.png';
+// OpenStreetMap Website
+import openStreetMap1 from '../assets/workImages/webDevelopment/openStreetMap/openStreetMap1.png';
+import openStreetMap2 from '../assets/workImages/webDevelopment/openStreetMap/openStreetMap2.png';
+import openStreetMap3 from '../assets/workImages/webDevelopment/openStreetMap/openStreetMap3.png';
+import openStreetMap4 from '../assets/workImages/webDevelopment/openStreetMap/openStreetMap4.png';
 
 // Lemon Angel Website
 import lemonAngelLanding from '../assets/workImages/webDevelopment/lemonAngel/lemonAngelLanding.png';
@@ -14,6 +12,14 @@ import lemonAngelContact from '../assets/workImages/webDevelopment/lemonAngel/le
 
 // Lemon Angel Logo
 import lemonAngelLogo from '../assets/workImages/graphicDesign/lemonAngel/lemonAngelLogo.png';
+
+// Summer Rolls Website
+import summerRolls1 from '../assets/workImages/webDevelopment/summerRolls/summerRolls1.png';
+import summerRolls2 from '../assets/workImages/webDevelopment/summerRolls/summerRolls2.png';
+import summerRolls3 from '../assets/workImages/webDevelopment/summerRolls/summerRolls3.png';
+import summerRolls4 from '../assets/workImages/webDevelopment/summerRolls/summerRolls4.png';
+import summerRolls5 from '../assets/workImages/webDevelopment/summerRolls/summerRolls5.png';
+import summerRolls6 from '../assets/workImages/webDevelopment/summerRolls/summerRolls6.png';
 
 // Norman Ed
 import normanEdHome from '../assets/workImages/webDevelopment/normanEd/normanEdHome.png';
@@ -64,13 +70,11 @@ import adornWindow2 from '../assets/workImages/graphicDesign/adorn/adornWindow2.
 
 // export all images
 export {
-	//Summer Rolls
-	summerRolls1,
-	summerRolls2,
-	summerRolls3,
-	summerRolls4,
-	summerRolls5,
-	summerRolls6,
+	// Open Street Map
+	openStreetMap1,
+	openStreetMap2,
+	openStreetMap3,
+	openStreetMap4,
 	// Lemon Angel
 	lemonAngelLanding,
 	lemonAngelAbout,
@@ -78,6 +82,13 @@ export {
 	lemonAngelContact,
 	//Lemon Angel Logo
 	lemonAngelLogo,
+	//Summer Rolls
+	summerRolls1,
+	summerRolls2,
+	summerRolls3,
+	summerRolls4,
+	summerRolls5,
+	summerRolls6,
 	// Norman Ed
 	normanEdHome,
 	normanEdGallery,
