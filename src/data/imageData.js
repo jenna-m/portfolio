@@ -12,6 +12,7 @@ import lemonAngelContact from '../assets/workImages/webDevelopment/lemonAngel/le
 
 // Lemon Angel Logo
 import lemonAngelLogo from '../assets/workImages/graphicDesign/lemonAngel/lemonAngelLogo.png';
+import lemonAngelBusinessCard from '../assets/workImages/graphicDesign/lemonAngel/lemonAngelBusinessCard.png';
 
 // Summer Rolls Website
 import summerRolls1 from '../assets/workImages/webDevelopment/summerRolls/summerRolls1.png';
@@ -82,6 +83,7 @@ export {
 	lemonAngelContact,
 	//Lemon Angel Logo
 	lemonAngelLogo,
+	lemonAngelBusinessCard,
 	//Summer Rolls
 	summerRolls1,
 	summerRolls2,

@@ -14,6 +14,7 @@ import {
 
 	// Lemon Angel Logo
 	lemonAngelLogo,
+	lemonAngelBusinessCard,
 
 	// Summer Rolls
 	summerRolls1,
@@ -111,8 +112,8 @@ export const workData = [
 		displayCategory: 'Graphic Design',
 		tools: 'Adobe Illustrator',
 		description:
-			'Pastry chef Elizabeth Garcia needed a new logo for digital and print use. With the opportunity to experiment with typography and SVG animation, I produced this playful design which the client enthusiastically calls "groovy." The full animation can be viewed on the client\'s website, lemonangel.net.',
-		src: [lemonAngelLogo],
+			'Pastry chef Elizabeth Garcia needed a new logo for digital and print use. Given the opportunity to experiment with typography and SVG animation, I produced this playful design which the client enthusiastically calls "groovy." The full animation can be viewed on the client\'s website, lemonangel.net.',
+		src: [lemonAngelLogo, lemonAngelBusinessCard],
 	},
 	{
 		id: 7,
